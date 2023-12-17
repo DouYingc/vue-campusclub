@@ -1,0 +1,147 @@
+.content {
+  /* 设置整个页面的窗口宽度 */
+  width: 100vw;
+  /* 设置整个页面的窗口高度 */
+  height: 100vh;
+  /* 设置背景颜色 */
+  background-color: rgb(186, 175, 221);
+  /* 设置相对定位 */
+  position: relative;
+}
+
+
+.content .login-wrapper {
+  width: 70vw;
+  height: 80vh;
+  /* 背景颜色 */
+  background-color: #fff;
+  /* 设置边框锐度 */
+  border-radius: 40px;
+  /* 绝对定位 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* 将元素对齐 */
+  transform: translate(-50%, -50%);
+  /* 设置弹性布局 */
+  display: flex;
+}
+
+.left-img {
+  border-radius: 40px;
+  flex: 1;
+  background: url('../images/bg.jpg') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content .login-wrapper .left-img .glass {
+  width: 60%;
+  padding: 20px;
+  color: #fff;
+  /* 设置绝对定位 */
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  /* 将元素对齐 */
+  transform: translate(-50%, -20%);
+  /* 背景颜色 */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* 设置阴影 */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.7);
+  /* 背景毛玻璃 */
+  backdrop-filter: blur(10px);
+  /* 针对内核浏览器是旧版浏览器的,设置 */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.content .login-wrapper .left-img .glass .tips .title {
+  width: 25%;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 136, 0.37);
+  /* 背景毛玻璃 */
+  backdrop-filter: blur(10px);
+  /* 针对内核浏览器是旧版浏览器的,设置 */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.content .login-wrapper .left-img .glass .tips h1 {
+  margin: 15px 0;
+}
+
+.content .login-wrapper .left-img .glass .tips span {
+  margin: 5px 0;
+  display: block;
+  font-family: 100;
+}
+
+.content .login-wrapper .right-login-form {
+  flex: 1;
+  position: relative;
+}
+
+.form-wrapper {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.content .login-wrapper .right-login-form .form-wrapper h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 45px;
+  margin-bottom: 50px;
+}
+
+
+.content .login-wrapper .right-login-form .form-wrapper .input-items {
+  margin: 20px 0;
+}
+
+.content .login-wrapper .right-login-form .form-wrapper .input-items .el-button-submit {
+  margin-left: 80px;
+}
+
+.content .login-wrapper .right-login-form .form-wrapper .input-items .el-button {
+  border-color: rgb(110, 87, 179);
+  background-color: rgb(110, 87, 179);
+  width: 150px;
+}
+
+.content .login-wrapper .right-login-form .form-wrapper .input-items .el-inputs {
+  width: 470px;
+}
+
+.content .login-wrapper .right-login-form .form-wrapper .input-items .el-select {
+  width: 120px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.el-select-options {
+  margin-left: 60px;
+  width: 130px;
+}
+
+.siginup-tips {
+  text-align: center;
+  font-weight: 600;
+  margin: 30px 0;
+  margin-left: 35px;
+}
+
+.siginup-tips span:last-child {
+  color: rgb(110, 87, 179);
+  /* 鼠标放上变小手 */
+  cursor: pointer;
+}

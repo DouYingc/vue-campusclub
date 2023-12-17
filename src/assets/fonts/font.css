@@ -1,0 +1,7 @@
+/* 这是 font.css 可设置多种字体； */
+/* 注意：font-family: 'XXX'; 将字体名字自定义为 XXX,使用时要用这个名字 */
+/* 如果需要引入多个字体，直接在里面继续添加即可，不用另建文件 */
+@font-face {
+  font-family: '东方大楷';
+  src: url('./AlimamaDongFangDaKai-Regular.ttf');
+}
